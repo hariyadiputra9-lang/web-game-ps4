@@ -1,1 +1,258 @@
-# web-game-ps4
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Isi Game PS4 subtitle indonesia</title>
+
+    <style>
+        /* === BACKGROUND ANIMASI NEON PS4 === */
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at top, #0d1b3d, #050505);
+            background-size: 200% 200%;
+            animation: bgMove 8s infinite alternate;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        @keyframes bgMove {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 100%; }
+        }
+
+        /* === HEADER NEON === */
+        header {
+            padding: 15px 40px;
+            background: rgba(0, 0, 0, 0.7);
+            border-bottom: 3px solid #2f5fff;
+            box-shadow: 0 0 15px #2f5fff;
+            backdrop-filter: blur(6px);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        header img {
+            height: 40px;
+            filter: drop-shadow(0 0 10px #4d79ff);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+            text-shadow: 0 0 10px #4d79ff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        /* === TITLE NEON === */
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            border-left: 4px solid #4d79ff;
+            text-shadow: 0 0 6px #4d79ff;
+        }
+
+        /* === SEARCH BAR === */
+        .search-bar {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            background: rgba(255,255,255,0.1);
+            color: white;
+            font-size: 16px;
+            outline: none;
+            box-shadow: 0 0 10px #4d79ff;
+        }
+
+        /* === LIST GAME NEON === */
+        .game-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .game-list li {
+            background: #151515;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #333;
+            transition: 0.3s;
+        }
+
+        .game-list li:hover {
+            background: #1e2a55;
+            border-left: 4px solid #4d79ff;
+            box-shadow: 0 0 10px #4d79ff;
+            transform: translateX(6px);
+        }
+
+        /* === PAKET HEMAT NEON === */
+        .paket-box {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.05);
+            box-shadow: 0 0 15px #4d79ff80;
+        }
+
+        .paket {
+            background: #111422;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #4d79ff;
+            box-shadow: 0 0 10px #4d79ff60;
+        }
+
+        /* === CONTACT BOX === */
+        .contact-box {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 10px;
+            box-shadow: 0 0 8px #4d79ff40;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            background: rgba(0,0,0,0.6);
+            box-shadow: 0 0 15px #4d79ff40;
+        }
+
+        /* === TOMBOL WHATSAPP NEON === */
+        .wa-button {
+            position: fixed;
+            right: 22px;
+            bottom: 22px;
+            background: #1e90ff;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 18px #4d79ff;
+            z-index: 999;
+            transition: 0.3s;
+        }
+
+        .wa-button:hover {
+            transform: scale(1.15);
+            box-shadow: 0 0 25px #6b8cff;
+        }
+
+        .wa-button img {
+            width: 36px;
+            height: 36px;
+            filter: drop-shadow(0 0 5px #fff);
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <img src="https://fabrikbrands.com/wp-content/uploads/PlayStation-Logo-1-1155x770.png" alt="PS4 Logo">
+    <h1>Jasa Isi Game PS4 SUBTITLE INDONESIA</h1>
+</header>
+
+<div class="container">
+
+    <h2 class="section-title">Cari Game</h2>
+    <input type="text" id="search" class="search-bar" placeholder="Ketik nama game...">
+
+    <h2 class="section-title">Daftar Game</h2>
+
+    <ul class="game-list" id="gameList">
+        <li>A Plague Tale Innocence</li>
+        <li>A Way Out</li>
+        <li>Assassins Creed Mirage</li>
+        <li>It Takes Two</li>
+        <li>Lego Batman Video Game</li>
+        <li>Resident Evil 4</li>
+        <li>Sifu</li>
+        <li>The Last of Us 2</li>
+        <li>The Last of Us Remastered</li>
+        <li>Uncharted 4</li>
+        <li>Watch Dogs 2</li>
+        <li>Kena Bridge of Spirits</li>
+        <li>Assassins Creed Odyssey</li>
+        <li>Assassins Creed Valhalla</li>
+        <li>Biomutant</li>
+        <li>Call of Duty Black Ops Cold War</li>
+        <li>FC 26</li>
+        <li>Resident Evil 2</li>
+        <li>Resident Evil 3</li>
+    </ul>
+
+    <div class="paket-box">
+        <h2 class="section-title">Paket Hemat</h2>
+
+        <div class="paket">
+            <h3>⭐ Paket 3 Game</h3>
+            <p>Pilih bebas 3 game dari daftar.</p>
+            <p><b>Harga: Rp 65.000</b></p>
+        </div>
+
+        <div class="paket">
+            <h3>🔥 Paket 5 Game</h3>
+            <p>Pilih 5 game sesuai keinginan.</p>
+            <p><b>Harga: Rp 90.000</b></p>
+        </div>
+
+        <div class="paket">
+            <h3>💎 Paket 10 Game</h3>
+            <p>Ambil 10 game apa saja.</p>
+            <p><b>Harga: Rp 150.000</b></p>
+        </div>
+    </div>
+
+    <div class="contact-box">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <p>📞 WhatsApp: <b>085722223601</b></p>
+        <p>📍 Lokasi: KUMAI KALIMANTAN TENGAH</p>
+        <p>💬 Proses Cepat – Banyak Pilihan Game</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Jasa Isi Game PS4 — KUMAI KOBAR
+</footer>
+
+<!-- TOMBOL WA -->
+<a class="wa-button" href="https://wa.me/6285722223601?text=Halo%20saya%20mau%20isi%20game%20PS4" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+</a>
+
+<script>
+    const searchInput = document.getElementById("search");
+    const gameList = document.getElementById("gameList");
+    const games = gameList.getElementsByTagName("li");
+
+    searchInput.addEventListener("keyup", function() {
+        let filter = searchInput.value.toLowerCase();
+        for (let i = 0; i < games.length; i++) {
+            let text = games[i].innerText.toLowerCase();
+            games[i].style.display = text.includes(filter) ? "" : "none";
+        }
+    });
+</script>
+
+</body>
+</html>
